@@ -3,6 +3,24 @@
 All notable changes to this skill are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.0.0-beta] — 2026-06-02
+
+**概念边界优先 / Concept Boundary-First**。基于 v1 真实用户反馈("不够本质,不会主动理清 CPU 和 GPU 的区别")。
+
+### Added
+- **概念边界机制**:新增 `references/concept-boundaries.md`——四类概念关系(并列/包含/层级/易混淆兜底)+ 混淆风险判断(高/中/低启发式)+ 边界切分话术库。
+- **概念边界网**:阶段1 测绘时显式标注概念对的关系与混淆风险,并用 ASCII 图可视化(四个原子模板 + 防失控三纪律)。
+
+### Changed
+- **讲解单元从"单概念"变成"概念对优先"**:遇到高混淆对,强制**前置切边界**(一句话本质区别)→ 再各自展开 → 关卡确认。
+- "线-横"(概念对比)从可选配菜**升为必经环节**。
+- 失败模式新增一条:"高混淆概念对不主动切边界,等用户问才对比"。
+
+### Notes
+- v2.0 正式版:待真实用户走查通过后去掉 -beta。
+- v2.1 计划:沉淀领域混淆风险库。
+- v3 计划:跨会话记忆 / 插件市场可订阅。
+
 ## [1.0.0] — 2026-06-01
 
 首个正式发布版本。First public release.

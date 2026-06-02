@@ -26,6 +26,8 @@
 
 **五阶段工作流**:定终点(锁边界)→ 测绘地形(先地图)→ 诊断水平(自适应 2–4 题)→ 点线面体讲解(关卡制)→ 可选结业考(用真实文章验证)。
 
+> **v2 新特性 · 概念边界优先**:初学者最大的困惑不是"A 是什么",而是"A 和 B 到底差在哪"。v2 把"划清概念边界"从可选变成主菜——测绘时显式标出易混概念对的关系(并列/包含/层级/易混)和混淆风险并画成边界网;讲解时遇到高混淆对**主动前置切边界**(一句话本质区别),不等你问。
+
 **三种学习终点**,进来先选一个,它决定讲多深、怎么考:
 - ① **看懂/会聊** — 读懂内容、跟人聊不露怯
 - ② **会判断** — 做选型/评估/决策
@@ -91,6 +93,8 @@ The method skeleton adapts the "vertical-horizontal analysis" framework, reworke
 | **Solid** | Getting hands-on: minimal action + community + live debates + beginner traps |
 
 **5-stage flow**: lock the endpoint (set the boundary) → map the terrain → diagnose the user (adaptive 2–4 questions) → teach concept-by-concept (checkpointed) → optional graduation test (verify with a real article).
+
+> **v2 · Concept Boundary-First**: a beginner's biggest confusion isn't "what is A" but "how is A different from B". v2 promotes boundary-drawing from optional to default — the terrain map explicitly tags confusable concept pairs by relation (parallel / containment / hierarchy / confusable) and confusion-risk, and during teaching it **proactively cuts the boundary first** (one-sentence essential difference) for high-risk pairs, without waiting to be asked.
 
 **3 learning endpoints**, picked up front — they decide depth and how you're tested:
 - ① **Comprehend/Converse** — read the content, hold a conversation
