@@ -3,6 +3,23 @@
 All notable changes to this skill are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.1.0] — 2026-06-02
+
+**跨模型可用 / Universal Prompt**。让 learn-domain 脱离 Claude 生态,任何模型都能用。同时 v2 核心机制稳定,去掉 -beta 转正。
+
+### Added
+- **通用 Prompt 单文件** `dist/learn-domain-prompt.md`:把 SKILL.md + 8 个 reference 揉成一份自包含、连贯的 prompt。复制粘贴进 GPT / Gemini / 豆包 / Kimi / DeepSeek / 文心 等任意模型即可使用,无需 Claude。
+- **dist 使用说明** `dist/README.md`:给非 Claude 用户的三步上手 + 各模型注意事项(联网/离线)。
+- 主 README 新增"在其他模型上使用"章节(中英双语)。
+
+### Changed
+- 通用版的联网核查改为**优雅降级**:能联网的模型自动查证,不能联网的明确声明"建议自查"而非编造。
+- 版本号 `2.0.0-beta` → `2.1.0`(v2 概念边界机制经设计验证稳定,正式转正)。
+
+### Notes
+- v2.1 后续:真实用户(跨模型)走查反馈 → 沉淀领域混淆风险库。
+- v3 计划:跨会话记忆 / 插件市场可订阅。
+
 ## [2.0.0-beta] — 2026-06-02
 
 **概念边界优先 / Concept Boundary-First**。基于 v1 真实用户反馈("不够本质,不会主动理清 CPU 和 GPU 的区别")。

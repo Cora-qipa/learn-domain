@@ -55,6 +55,14 @@ git clone <repo-url> ~/.claude/skills/learn-domain
 
 完整运行示范见 [`examples/`](examples/)。
 
+## 在其他模型上使用(GPT / Gemini / 国产模型)
+
+Skill 机制是 Claude 专属的,但 learn-domain 的方法论本质是一段结构化指令,**任何模型都能用**。我们提供了一份自包含的通用 Prompt:
+
+👉 **[`dist/learn-domain-prompt.md`](dist/learn-domain-prompt.md)** — 复制里面的内容,粘贴进 GPT / Gemini / 豆包 / Kimi / DeepSeek / 文心 等任意模型的对话框,然后说"我想入门 XX"即可。
+
+详细说明见 [`dist/README.md`](dist/README.md)。
+
 ## 仓库结构
 
 ```
@@ -116,6 +124,12 @@ In Claude Code:
 ```
 
 Or just say "get me started on options trading" / "I can't follow this article on RAG" — the skill auto-triggers. See [`examples/`](examples/) for full runs.
+
+## Use on other models (GPT / Gemini / non-Claude)
+
+The Skill mechanism is Claude-only, but learn-domain's method is just a structured prompt — **any model can run it**. We ship a self-contained universal prompt:
+
+👉 **[`dist/learn-domain-prompt.md`](dist/learn-domain-prompt.md)** — copy its contents, paste into any model's chat box (GPT / Gemini / domestic models), then say "I want to learn X". See [`dist/README.md`](dist/README.md) for details.
 
 ## License
 
